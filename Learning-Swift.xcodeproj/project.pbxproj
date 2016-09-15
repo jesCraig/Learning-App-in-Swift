@@ -14,6 +14,7 @@
 		6E9913D51D8853400086F373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9913D31D8853400086F373 /* LaunchScreen.storyboard */; };
 		6E9913E01D8853400086F373 /* Learning_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9913DF1D8853400086F373 /* Learning_SwiftTests.swift */; };
 		6E9913EB1D8853400086F373 /* Learning_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9913EA1D8853400086F373 /* Learning_SwiftUITests.swift */; };
+		6ED0BA881D8A432D00ADC0D7 /* draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED0BA871D8A432D00ADC0D7 /* draw.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6E9913E61D8853400086F373 /* Learning-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9913EA1D8853400086F373 /* Learning_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUITests.swift; sourceTree = "<group>"; };
 		6E9913EC1D8853400086F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ED0BA871D8A432D00ADC0D7 /* draw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = draw.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				6E9913CA1D8853400086F373 /* AppDelegate.swift */,
 				6E9913CC1D8853400086F373 /* ViewController.swift */,
 				6E9913CE1D8853400086F373 /* Main.storyboard */,
+				6ED0BA871D8A432D00ADC0D7 /* draw.swift */,
 				6E9913D11D8853400086F373 /* Assets.xcassets */,
 				6E9913D31D8853400086F373 /* LaunchScreen.storyboard */,
 				6E9913D61D8853400086F373 /* Info.plist */,
@@ -188,18 +191,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jessica Craig";
 				TargetAttributes = {
 					6E9913C61D8853400086F373 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					6E9913DA1D8853400086F373 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6E9913C61D8853400086F373;
 					};
 					6E9913E51D8853400086F373 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6E9913C61D8853400086F373;
 					};
 				};
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED0BA881D8A432D00ADC0D7 /* draw.swift in Sources */,
 				6E9913CD1D8853400086F373 /* ViewController.swift in Sources */,
 				6E9913CB1D8853400086F373 /* AppDelegate.swift in Sources */,
 			);
@@ -326,8 +333,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -372,8 +381,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -392,6 +403,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -405,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UTM.Learning-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UTM.Learning-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UTM.Learning-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning-Swift.app/Learning-Swift";
 			};
 			name = Debug;
@@ -439,6 +454,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UTM.Learning-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning-Swift.app/Learning-Swift";
 			};
 			name = Release;
@@ -450,6 +466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UTM.Learning-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Learning-Swift";
 			};
 			name = Debug;
@@ -461,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UTM.Learning-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Learning-Swift";
 			};
 			name = Release;
@@ -484,6 +502,7 @@
 				6E9913F11D8853400086F373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E9913F21D8853400086F373 /* Build configuration list for PBXNativeTarget "Learning-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +511,7 @@
 				6E9913F41D8853400086F373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E9913F51D8853400086F373 /* Build configuration list for PBXNativeTarget "Learning-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +520,7 @@
 				6E9913F71D8853400086F373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
