@@ -117,7 +117,7 @@
         <!--View Controller-->
         <scene sceneID="G99-HJ-RSA">
             <objects>
-                <viewController id="JF7-fN-bt4" sceneMemberID="viewController">
+                <viewController id="JF7-fN-bt4" customClass="ViewController" customModule="Learning_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xCT-tr-dkG"/>
                         <viewControllerLayoutGuide type="bottom" id="t1o-yr-5h9"/>
@@ -145,11 +145,81 @@
                                     <segue destination="LEF-W1-mWT" kind="show" id="G6O-1J-RdP"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Av-dU-0vb">
+                                <frame key="frameInset" minY="293" width="1024" height="1073"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw5-Iu-9W2">
+                                        <frame key="frameInset" minX="15" minY="1035" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Black"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJu-YI-L1s">
+                                        <frame key="frameInset" minX="69" minY="1035" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Grey"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfz-rw-wZM">
+                                        <frame key="frameInset" minX="133" minY="1035" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Red"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7G-ec-d7y">
+                                        <frame key="frameInset" minX="202" minY="1035" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Blue"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heD-4K-zsO">
+                                        <frame key="frameInset" minX="264" minY="1035" width="52" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Lt. Blue"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofL-ia-xc0">
+                                        <frame key="frameInset" minX="339" minY="1035" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Green"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMu-uC-EdN">
+                                        <frame key="frameInset" minX="402" minY="1035" width="63" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Lt. Green"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8e-cc-NjN">
+                                        <frame key="frameInset" minX="489" minY="1035" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Brown"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhG-ad-T12">
+                                        <frame key="frameInset" minX="560" minY="1035" width="51" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Orange"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2k-Ev-iGK">
+                                        <frame key="frameInset" minX="636" minY="1035" width="44" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Yellow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVP-YT-jhS">
+                                        <frame key="frameInset" minX="719" minY="1035" width="44" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Eraser"/>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M99-uS-k22">
+                                        <frame key="frameInset" minY="-297" width="1024" height="1362"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6xr-py-gCL">
+                                        <frame key="frameInset" minY="-297" width="1024" height="1370"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRv-oK-taX">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="80s-92-GTI"/>
                                 </constraints>
-                                <state key="normal" title="Clear"/>
+                                <state key="normal" title="Settings"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="80s-92-GTI"/>
@@ -161,11 +231,11 @@
                                     </mask>
                                 </variation>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="08U-R0-uTM">
-                                <frame key="frameInset" minY="132" width="1024" height="1234"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpV-UW-6JQ">
+                                <frame key="frameInset" minX="915" minY="20" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
+                                <state key="normal" title="Clear"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -178,33 +248,36 @@
                             <mask key="subviews">
                                 <exclude reference="EFm-w5-Ri7"/>
                                 <exclude reference="KRv-oK-taX"/>
-                                <exclude reference="08U-R0-uTM"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Qee-KY-GZR"/>
-                                <exclude reference="zA0-kB-BEb"/>
                                 <exclude reference="0xG-hA-Ie6"/>
                                 <exclude reference="hK6-bb-NfN"/>
+                                <exclude reference="Qee-KY-GZR"/>
+                                <exclude reference="zA0-kB-BEb"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="EFm-w5-Ri7"/>
                                 <include reference="KRv-oK-taX"/>
-                                <include reference="08U-R0-uTM"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Qee-KY-GZR"/>
-                                <include reference="zA0-kB-BEb"/>
                                 <include reference="0xG-hA-Ie6"/>
                                 <include reference="hK6-bb-NfN"/>
+                                <include reference="Qee-KY-GZR"/>
+                                <include reference="zA0-kB-BEb"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="permanentView" destination="M99-uS-k22" id="5mV-ek-2in"/>
+                        <outlet property="temp" destination="6xr-py-gCL" id="Czc-pF-r8g"/>
+                        <outlet property="tempView" destination="6xr-py-gCL" id="UW9-yd-Xyv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EP3-JU-oBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="913.47656249999989" y="824.01171303074659"/>
+            <point key="canvasLocation" x="1229.8828125" y="823.57247437774515"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pz8-eG-4b1">
