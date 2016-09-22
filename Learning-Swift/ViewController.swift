@@ -29,7 +29,8 @@ class ViewController: UIViewController {
             (102.0 / 255.0, 1.0, 0), (160.0 / 255.0, 82.0 / 255.0, 45.0 / 255.0), (1.0, 102.0 / 255.0, 0),
             (1.0, 1.0, 0), (1.0, 1.0, 1.0),]
     
-    @IBAction func Clear(_ sender: AnyObject) {
+    @IBAction func Clear(_ sender: UIButton) {
+        permanentView.image = nil
     }
     
     
