@@ -208,7 +208,7 @@
                                         <frame key="frameInset" minY="-297" width="1024" height="1362"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6xr-py-gCL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iqo-Ac-VBw">
                                         <frame key="frameInset" minY="-297" width="1024" height="1370"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -250,10 +250,10 @@
                                 <exclude reference="KRv-oK-taX"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="0xG-hA-Ie6"/>
-                                <exclude reference="hK6-bb-NfN"/>
                                 <exclude reference="Qee-KY-GZR"/>
                                 <exclude reference="zA0-kB-BEb"/>
+                                <exclude reference="0xG-hA-Ie6"/>
+                                <exclude reference="hK6-bb-NfN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -262,27 +262,26 @@
                                 <include reference="KRv-oK-taX"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="0xG-hA-Ie6"/>
-                                <include reference="hK6-bb-NfN"/>
                                 <include reference="Qee-KY-GZR"/>
                                 <include reference="zA0-kB-BEb"/>
+                                <include reference="0xG-hA-Ie6"/>
+                                <include reference="hK6-bb-NfN"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="permanentView" destination="M99-uS-k22" id="5mV-ek-2in"/>
-                        <outlet property="temp" destination="6xr-py-gCL" id="Czc-pF-r8g"/>
-                        <outlet property="tempView" destination="6xr-py-gCL" id="UW9-yd-Xyv"/>
+                        <outlet property="tempView" destination="iqo-Ac-VBw" id="xDB-7Q-ecd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EP3-JU-oBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1229.8828125" y="823.57247437774515"/>
+            <point key="canvasLocation" x="912.89062499999989" y="806.88140556368955"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pz8-eG-4b1">
             <objects>
-                <viewController id="LEF-W1-mWT" sceneMemberID="viewController">
+                <viewController id="LEF-W1-mWT" customClass="ViewController" customModule="Learning_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ivl-zM-8QJ"/>
                         <viewControllerLayoutGuide type="bottom" id="c13-Kn-VNn"/>
@@ -306,7 +305,7 @@
                                 </constraints>
                                 <state key="normal" title="Drawing"/>
                                 <connections>
-                                    <segue destination="JF7-fN-bt4" kind="show" id="lhd-xK-xwh"/>
+                                    <segue destination="JF7-fN-bt4" kind="show" id="awu-78-RGx"/>
                                 </connections>
                             </button>
                         </subviews>
